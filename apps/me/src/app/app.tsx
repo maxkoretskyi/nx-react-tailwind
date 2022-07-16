@@ -1,12 +1,13 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { Ui } from '@nx-react/ui';
 import styles from './app.module.less';
-import NxWelcome from './nx-welcome';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="me" />
-      <div />
+      <h1 className={styles['r']}>
+        Hello world!
+      </h1>
+      <Ui/>
     </>
   );
 }

@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "me": "apps/me",
-    "me-e2e": "apps/me-e2e"
+    "me-e2e": "apps/me-e2e",
+    "ui": "libs/ui"
   }
 }
